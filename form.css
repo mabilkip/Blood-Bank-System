@@ -1,0 +1,57 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: red; */
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    padding: 1.5rem; 
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'ubuntu';
+    color: white;
+    font-size: larger;
+}
+li{
+    list-style: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7.5rem;
+
+}
+footer{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    padding:1.5rem;
+    margin-top: 8rem; 
+
+}
+body{
+    background: url(images/bloodbg2.jpg);
+    background-size: cover;
+}
+.black{
+    color: whitesmoke;
+}
+input{
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border-color: silver;
+
+}
